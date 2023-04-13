@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    text-align: center;
+    background-image: url(containerContatos.png);
+}
+
+form{
+    text-align: center;
+    width: 600px;
+
+}
+
+td{
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+
+#dtPessoas1{
+    font:14px Verdana;
+    width: 800px;
+    
+    height: 600px;
+    background-image: url(container2Contatos.png);
+    margin-left: 20%;
+}
+
+label{
+    margin-left: 40%;
+}
+
+input{
+    margin-left: 40%;
+    width: 300px;
+}
+
+form{
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+header{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-image: url(headerAgenda.png);
+
+}
+
+
+table tr td{
+    width: fit-content;
+    background-image: url(containerContatos.png);
+    font-weight: bold;
+    font-family:  Arial, Helvetica, sans-serif;
+
+}
+
+table#tbPessoas{
+font-weight: bolder;
+font-size: larger;
+align-items: center;
+margin-left: 100px;
+width: 600px;
+height: 30px;
+background-image: url(placeholderContatos.png);
+
+}

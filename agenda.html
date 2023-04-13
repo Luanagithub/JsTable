@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="agenda.js"></script>
+
+<body>
+
+<div id="dtPessoas1">
+
+    <header>
+        <h1>AGENDA</h1>
+    </header>
+
+    <form name="fPessoas">
+        
+
+        <label>Nome</label>
+        <input type="text" name="txtNome"/><br>
+        
+        <label>Telefone</label>
+        <input type="text" name="txtTelefone"/>
+        
+        <label>Email</label>
+        <input type="text" name="txtEmail"/><br>
+        
+        <label>Data de Aniversário</label>
+        <input type="text" name="txtData"/><br><br>
+
+
+        <input type="button" value="Registrar novo contato" onclick="cadPessoa(txtNome.value, txtTelefone.value, txtEmail.value, txtData.value)">
+
+    </form>
+
+    <br>
+    <br>
+    <div id="dtPessoas">
+    <table id="tbPessoas">
+    <thead>
+        <tr>
+            <td>Nome</td>
+            <td>Telefone</td>
+            <td>E-mail</td>
+            <td>Data de Aniversário</td>
+            <td>N°</td>
+
+        </tr>
+    </thead>
+    </table>
+    </div>
+
+
+</div>
+
+</body>
+</html>
